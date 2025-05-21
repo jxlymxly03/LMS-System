@@ -1,0 +1,48 @@
+# === General ===
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+
+# === OS junk ===
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# === Node / Angular frontend ===
+/node_modules/
+/dist/
+/.angular/cache/
+/coverage/
+/src/environments/environment*.ts
+
+# === Java / Spring Boot backend ===
+**/target/
+/.mvn/
+/logs/
+*.iml
+*.class
+*.jar
+*.war
+*.ear
+
+# === IntelliJ / Eclipse ===
+*.iws
+*.ipr
+*.class
+*.settings/
+*.project
+*.classpath
+*.factorypath
+*.springBeans
+*.prefs
+
+# === Build tools ===
+/build/
+/.gradle/
+/out/
